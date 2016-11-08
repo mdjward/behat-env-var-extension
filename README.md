@@ -1,5 +1,9 @@
 # Behat environment variable extension #
 
+[![Build Status](https://scrutinizer-ci.com/g/mdjward/behat-env-var-extension/badges/build.png?b=master)](https://scrutinizer-ci.com/g/mdjward/behat-env-var-extension/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mdjward/behat-env-var-extension/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mdjward/behat-env-var-extension/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/mdjward/behat-env-var-extension/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/mdjward/behat-env-var-extension/?branch=master)
+
 An extension to [Behat](http://behat.org/) to support the ingestion of environment variables into container parameters, for use in behat configuration.
 
 ## Example usage ##
