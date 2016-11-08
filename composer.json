@@ -8,6 +8,18 @@
             "email": "dev@mattdw.co.uk"
         }
     ],
+    "keywords": [
+        "behat",
+        "extension",
+        "bdd",
+        "dependency-injection",
+        "service-container",
+        "environment-variables",
+        "environment",
+        "env"
+    ],
+    "homepage": "https://github.com/mdjward/behat-env-var-extension",
+    "license": "MIT",
     "require": {
         "php": ">=5.4.0",
         "behat/behat": "~3.0"
