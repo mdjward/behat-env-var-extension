@@ -10,6 +10,7 @@
 
 namespace Mdjward\Behat\EnvVarExtension\ServiceContainer;
 
+use Behat\Testwork\ServiceContainer\ExtensionManager;
 use PHPUnit_Framework_TestCase as TestCase;
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\Exception\InvalidConfigurationException;
@@ -121,6 +122,16 @@ class EnvVarExtensionIntegrationTest extends TestCase
                 $containerBuilder->getParameter($parameterName)
             );
         }
+    }
+    
+    public function testInitializeCallIsInert()
+    {
+        $this->extension->initialize(new ExtensionManager([]));
+    }
+    
+    public function testProcessCallIsInert()
+    {
+        $this->extension->process(new ContainerBuilder());
     }
     
 }
