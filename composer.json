@@ -1,5 +1,7 @@
 {
     "name": "mdjward/behat-env-var-extension",
+    "description": "Behat extension to make environment variables available as container parameters",
+    "version": "1.0",
     "authors": [
         {
             "name": "Matt Ward",
