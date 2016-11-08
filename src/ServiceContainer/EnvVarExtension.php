@@ -5,8 +5,7 @@
  *
  * Created Nov 8, 2016, 2:39:05 PM
  * 
- * @author EnvVarExtension
- * Copyright (c) 2016, Maple Syrup Media Ltd
+ * @author Matt Ward <dev@mattdw.co.uk>
  */
 
 namespace Mdjward\Behat\EnvVarExtension\ServiceContainer;
@@ -19,7 +18,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 /**
  * EnvVarExtension
  *
- * @author M.D.Ward <md.ward@quidco.com>
+ * @author Matt Ward <dev@mattdw.co.uk>
  */
 class EnvVarExtension implements Extension
 {

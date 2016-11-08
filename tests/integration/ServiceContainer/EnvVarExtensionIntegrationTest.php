@@ -5,8 +5,7 @@
  *
  * Created Nov 8, 2016, 7:29:38 PM
  * 
- * @author EnvVarExtensionIntegrationTest
- * Copyright (c) 2016, Maple Syrup Media Ltd
+ * @author Matt Ward <dev@mattdw.co.uk>
  */
 
 namespace Mdjward\Behat\EnvVarExtension\ServiceContainer;
@@ -20,7 +19,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 /**
  * EnvVarExtensionIntegrationTest
  *
- * @author M.D.Ward <md.ward@quidco.com>
+ * @author Matt Ward <dev@mattdw.co.uk>
  */
 class EnvVarExtensionIntegrationTest extends TestCase
 {

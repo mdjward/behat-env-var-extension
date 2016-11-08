@@ -5,8 +5,7 @@
  *
  * Created Nov 8, 2016, 7:28:04 PM
  * 
- * @author EnvVarExtensionTest
- * Copyright (c) 2016, Maple Syrup Media Ltd
+ * @author Matt Ward <dev@mattdw.co.uk>
  */
 
 namespace Mdjward\Behat\EnvVarExtension\ServiceContainer;
@@ -16,7 +15,7 @@ use PHPUnit_Framework_TestCase as TestCase;
 /**
  * EnvVarExtensionTest
  *
- * @author M.D.Ward <md.ward@quidco.com>
+ * @author Matt Ward <dev@mattdw.co.uk>
  */
 class EnvVarExtensionTest extends TestCase
 {
