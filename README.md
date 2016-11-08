@@ -1,7 +1,6 @@
 # Behat environment variable extension #
 
-An extension to [Behat](http://behat.org/) to support the ingestion of environment variables into container parameters, for u
-se in behat configuration.
+An extension to [Behat](http://behat.org/) to support the ingestion of environment variables into container parameters, for use in behat configuration.
 
 ## Example usage ##
 
